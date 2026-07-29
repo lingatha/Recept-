@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=blue2.0">
+  <link rel="stylesheet" href="style.css?v=5.2">
   <style>
     /* Direct Hardcoded Blue Theme Override to force browser refresh */
     body {
@@ -188,9 +188,10 @@
       </div>
 
       <div class="modal-footer">
+        <button class="btn btn-danger" id="modalDeleteBtn" style="margin-right: auto; background-color: #dc2626; color: white;">🗑️ Rezept Löschen</button>
         <button class="btn btn-secondary" onclick="closeModal('detailModal')">Schließen</button>
         <button class="btn btn-warning" id="modalEditBtn">✏️ Bearbeiten</button>
-        <button class="btn btn-primary" onclick="printCurrentRecipe()">🖨️ Rezept Drucken</button>
+        <button class="btn btn-primary" onclick="printCurrentRecipe()">🖨️ Drucken</button>
       </div>
     </div>
   </div>
@@ -258,6 +259,7 @@
         </div>
 
         <div class="modal-footer">
+          <button type="button" class="btn btn-danger" id="editModalDeleteBtn" style="margin-right: auto; background-color: #dc2626; color: white; display: none;">🗑️ Rezept Löschen</button>
           <button type="button" class="btn btn-secondary" onclick="closeModal('editModal')">Abbrechen</button>
           <button type="submit" class="btn btn-success">💾 Rezept Speichern</button>
         </div>
@@ -314,6 +316,6 @@
     </div>
   </div>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=5.2"></script>
 </body>
 </html>

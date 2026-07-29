@@ -4405,7 +4405,7 @@ const AUTHENTIC_RECIPES = [
     "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 20)"
   }
 ];
-const DB_VERSION = "v4.0_flawless_pdf";
+const DB_VERSION = "v5.2_delete_recipe";
 
 // Recept Master Pro - 100% Exact Scanned PDF Database
 
@@ -4457,81 +4457,83 @@ function saveToLocalStorage() {
   localStorage.setItem('recept_master_db', JSON.stringify(recipes));
 }
 
-// Render Recipe Cards (Clean Cards: Only Base Weight shown)
+// Render Recipe Cards (Clean Cards: Only Base Weight shown, Alphabetically Sorted)
 function renderRecipes() {
-  const grid = document.getElementById('recipeGrid');
-  const query = document.getElementById('searchInput').value.trim().toLowerCase();
-  
-  const filtered = recipes.filter(r => {
-    const matchesCategory = (currentCategory === 'All' || r.category === currentCategory);
-    
-    const titleMatch = r.title.toLowerCase().includes(query);
-    const ingredientMatch = (r.meat_ingredients || []).some(m => m.name.toLowerCase().includes(query)) ||
-                            (r.spices_additives || []).some(s => s.name.toLowerCase().includes(query));
-    
-    const typoMatch = (query.includes('rindwurt') && r.title.toLowerCase().includes('rindwurst')) ||
-                       (query.includes('brastwurt') && r.title.toLowerCase().includes('bratwurst'));
+  const grid = document.getElementById("recipeGrid");
+  const countBadge = document.getElementById("recipeCountBadge");
+  if (!grid) return;
+  grid.innerHTML = "";
 
-    return matchesCategory && (titleMatch || ingredientMatch || typoMatch);
-  });
+  const query = (document.getElementById("searchInput")?.value || "").trim().toLowerCase();
 
-  document.getElementById('recipeCountBadge').textContent = `${filtered.length} Original-Rezepte verfügbar`;
+  let list = [...recipes];
 
-  if (filtered.length === 0) {
+  // 1. Filter by Category
+  if (currentCategory && currentCategory !== 'All') {
+    list = list.filter(r => (r.category || '').toLowerCase() === currentCategory.toLowerCase());
+  }
+
+  // 2. Filter by Search Query
+  if (query) {
+    list = list.filter(r => {
+      const titleMatch = (r.title || '').toLowerCase().includes(query);
+      const catMatch = (r.category || '').toLowerCase().includes(query);
+      const meatMatch = (r.meat_ingredients || []).some(m => (m.name || '').toLowerCase().includes(query));
+      const spiceMatch = (r.spices_additives || []).some(s => (s.name || '').toLowerCase().includes(query));
+      return titleMatch || catMatch || meatMatch || spiceMatch;
+    });
+  }
+
+  // 3. Sort Alphabetically (A to Z) by recipe title
+  list.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'de', { sensitivity: 'base' }));
+
+  if (!list || list.length === 0) {
     grid.innerHTML = `
-      <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px; color: var(--text-muted);">
-        <div style="font-size: 3rem; margin-bottom: 12px;">🔍</div>
-        <h3>Kein passendes Rezept gefunden</h3>
-        <p style="font-size: 0.9rem; margin-top: 6px;">Bitte überprüfen Sie Ihre Suchanfrage.</p>
+      <div class="empty-state" style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+        <p style="font-size: 1.2rem; margin-bottom: 8px;">Keine Rezepte gefunden.</p>
+        <p style="font-size: 0.9rem;">Überprüfen Sie Ihren Suchbegriff oder wählen Sie eine andere Kategorie.</p>
       </div>
     `;
+    if (countBadge) countBadge.innerText = "0 Rezepte gefunden";
     return;
   }
 
-  grid.innerHTML = filtered.map(r => {
-    const meatPreview = (r.meat_ingredients || []).slice(0, 3).map(m => m.name).join(', ');
-    const spicesCount = (r.spices_additives || []).length;
+  if (countBadge) {
+    countBadge.innerText = `${list.length} Rezept${list.length === 1 ? '' : 'e'} verfügbar`;
+  }
 
-    return `
-      <div class="recipe-card">
-        <div>
-          <div class="card-top">
-            <span class="badge">${escapeHtml(r.category)}</span>
-          </div>
+  list.forEach(recipe => {
+    const card = document.createElement("div");
+    card.className = "recipe-box-card";
+    card.onclick = () => openDetailModal(recipe.id);
 
-          <h3 class="card-title">${escapeHtml(r.title)}</h3>
-
-          <div class="weight-indicator-box" style="justify-content: flex-start; gap: 12px;">
-            <div class="weight-row">
-              <label>Original Basis-Einwaage</label>
-              <span>${r.base_batch_kg.toFixed(1)} kg</span>
-            </div>
-          </div>
-
-          <div class="preview-list">
-            <div><strong>Fleisch:</strong> ${escapeHtml(meatPreview || 'Gemäß Rezeptur')}</div>
-            <div><strong>Gewürze:</strong> ${spicesCount} Komponenten</div>
-          </div>
+    card.innerHTML = `
+      <div>
+        <div class="box-top">
+          <span class="badge">${escapeHtml(recipe.category)}</span>
+          <span style="font-size: 1.1rem;">🥩</span>
         </div>
-
-        <div class="card-actions">
-          <button class="btn btn-primary" style="flex: 1;" onclick="openDetailModal('${r.id}')">
-            🔍 Rezept öffnen & Berechnen
-          </button>
-          <button class="btn btn-secondary" onclick="openEditModal('${r.id}')" title="Bearbeiten">
-            ✏️
-          </button>
+        <h3 class="box-title">${escapeHtml(recipe.title)}</h3>
+        <div class="box-weight">
+          <span>Basis-Einwaage:</span>
+          <strong>${recipe.base_batch_kg} kg</strong>
         </div>
       </div>
+      <div class="box-action-hint">
+        <span>🔍 Details & Berechnen</span>
+        <span>➔</span>
+      </div>
     `;
-  }).join('');
+    grid.appendChild(card);
+  });
 }
 
 // Category Filter Controller
 function filterCategory(cat) {
   currentCategory = cat;
   document.querySelectorAll('#categoryChips .chip').forEach(c => {
-    c.classList.toggle('active', c.textContent.includes(cat) || (cat === 'All' && c.textContent.includes('Alle')));
+    const isMatch = (cat === 'All' && c.textContent.trim() === 'Alle') || c.textContent.trim() === cat;
+    c.classList.toggle('active', isMatch);
   });
   renderRecipes();
 }
@@ -4568,6 +4570,11 @@ function openDetailModal(recipeId) {
     closeModal('detailModal');
     openEditModal(r.id);
   };
+
+  const delBtn = document.getElementById('modalDeleteBtn');
+  if (delBtn) {
+    delBtn.onclick = () => deleteRecipe(r.id);
+  }
 
   updateModalCalculation();
   openModal('detailModal');
@@ -4642,6 +4649,9 @@ function openAddModal() {
   document.getElementById('meatFormRows').innerHTML = '';
   document.getElementById('spiceFormRows').innerHTML = '';
   
+  const delBtn = document.getElementById('editModalDeleteBtn');
+  if (delBtn) delBtn.style.display = 'none';
+
   addMeatRow('', 0);
   addSpiceRow('', 0, 'kg');
 
@@ -4660,6 +4670,12 @@ function openEditModal(recipeId) {
   document.getElementById('editInstructions').value = r.instructions || '';
   document.getElementById('editQmInfo').value = r.quality_info || '';
 
+  const delBtn = document.getElementById('editModalDeleteBtn');
+  if (delBtn) {
+    delBtn.style.display = 'inline-block';
+    delBtn.onclick = () => deleteRecipe(r.id);
+  }
+
   const meatContainer = document.getElementById('meatFormRows');
   meatContainer.innerHTML = '';
   (r.meat_ingredients || []).forEach(m => addMeatRow(m.name, m.amount_kg));
@@ -4669,6 +4685,20 @@ function openEditModal(recipeId) {
   (r.spices_additives || []).forEach(s => addSpiceRow(s.name, s.amount_kg, s.unit || 'kg'));
 
   openModal('editModal');
+}
+
+// Delete Recipe Handler
+function deleteRecipe(recipeId) {
+  const r = recipes.find(item => item.id === recipeId);
+  if (!r) return;
+
+  if (confirm(`Möchten Sie das Rezept "${r.title}" wirklich löschen?`)) {
+    recipes = recipes.filter(item => item.id !== recipeId);
+    saveToLocalStorage();
+    renderRecipes();
+    closeModal('detailModal');
+    closeModal('editModal');
+  }
 }
 
 function addMeatRow(name = '', amount = 0) {
