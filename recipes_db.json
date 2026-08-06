@@ -52,7 +52,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 1)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_002",
@@ -127,7 +127,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 2)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_003",
@@ -176,7 +176,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 3)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_004",
@@ -280,7 +280,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 4)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_005",
@@ -347,7 +347,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 5)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_006",
@@ -366,7 +366,7 @@
     ],
     "spices_additives": [],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 6)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_007",
@@ -415,7 +415,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 7)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_008",
@@ -522,7 +522,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 8)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_009",
@@ -594,34 +594,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 9)"
-  },
-  {
-    "id": "rec_010",
-    "title": "210.2022",
-    "category": "Brühwurst",
-    "base_batch_kg": 1315.0,
-    "meat_ingredients": [
-      {
-        "name": "mm gewirfet",
-        "amount_kg": 12.0
-      },
-      {
-        "name": "dd keheikesWzkser",
-        "amount_kg": 2.0
-      },
-      {
-        "name": "L30kgNS",
-        "amount_kg": 1.0
-      },
-      {
-        "name": "kg Lsg",
-        "amount_kg": 1300.0
-      }
-    ],
-    "spices_additives": [],
-    "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 10)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_011",
@@ -716,7 +689,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 11)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_012",
@@ -818,7 +791,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 12)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_013",
@@ -916,7 +889,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 13)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_014",
@@ -1019,7 +992,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 14)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_015",
@@ -1074,7 +1047,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 15)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_016",
@@ -1179,7 +1152,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 16)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_017",
@@ -1242,7 +1215,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2.pdf (Seite 17)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_018",
@@ -1309,7 +1282,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 1)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_019",
@@ -1401,7 +1374,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 2)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_020",
@@ -1509,7 +1482,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 3)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_021",
@@ -1614,7 +1587,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 4)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_022",
@@ -1716,7 +1689,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 5)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_023",
@@ -1816,7 +1789,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 6)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_024",
@@ -1892,7 +1865,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 7)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_025",
@@ -1984,7 +1957,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 8)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_026",
@@ -2082,7 +2055,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 9)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_027",
@@ -2183,7 +2156,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 10)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_028",
@@ -2228,7 +2201,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 11)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_029",
@@ -2321,7 +2294,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 12)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_bratwurst_mittelgrob_exact",
@@ -2417,8 +2390,8 @@
         "unit": "kg"
       }
     ],
-    "instructions": "Rezepturvarianten:\n- Bratwurst Greewe: Analog Bratwurst mittelgrob, jedoch ohne Majoran.\n- Delikatessrostbratwurst: Analog Bratwurst mittelgrob, jedoch 1,800 kg Kochsalz, 0,220 kg Majoran.\n- Lumenbratwurst: Analog Bratwurst mittelgrob, jedoch 0,300 kg Majoran.",
-    "quality_info": "Quelle: Gescanntes Dokument 2receot.pdf (Seite 13) | Datum: 21.08.2022 | Zuständig: Herr Rieth"
+    "instructions": "Rezepturvarianten: - Bratwurst Greewe: Analog Bratwurst mittelgrob, jedoch ohne Majoran. - Delikatessrostbratwurst: Analog Bratwurst mittelgrob, jedoch 1,800 kg Kochsalz, 0,220 kg Majoran. - Lumenbratwurst: Analog Bratwurst mittelgrob, jedoch 0,300 kg Majoran.",
+    "quality_info": "Datum: 21.08.2022 | Zuständig: Herr Rieth"
   },
   {
     "id": "rec_031",
@@ -2461,7 +2434,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 14)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_032",
@@ -2534,7 +2507,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 15)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_033",
@@ -2624,7 +2597,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 16)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_034",
@@ -2674,7 +2647,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 17)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_035",
@@ -2693,7 +2666,7 @@
     ],
     "spices_additives": [],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 18)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_leberknoedel_exact",
@@ -2752,58 +2725,8 @@
         "unit": "kg"
       }
     ],
-    "instructions": "1. S.-Leber und Kutterbauch auf 3mm wolfen.\n2. Gewürzmischung (pro kg Charge berechnet) gleichmäßig unterarbeiten.\n3. Zu Knödeln formen und garen.",
-    "quality_info": "Quelle: Gescanntes Dokument 2receot.pdf (Seite 19) | Datum: 11.03.2023 | Zuständig: Herr Rieth"
-  },
-  {
-    "id": "rec_037",
-    "title": "Zustandig:",
-    "category": "Brühwurst",
-    "base_batch_kg": 25.0,
-    "meat_ingredients": [
-      {
-        "name": "S II",
-        "amount_kg": 12.0
-      },
-      {
-        "name": "kg Schulter schier",
-        "amount_kg": 13.0
-      }
-    ],
-    "spices_additives": [
-      {
-        "name": "NPS",
-        "amount_kg": 0.625,
-        "unit": "kg"
-      },
-      {
-        "name": "Frische Zwiebelmettwurst (Ra)",
-        "amount_kg": 0.36,
-        "unit": "kg"
-      },
-      {
-        "name": "Pokulus",
-        "amount_kg": 0.025,
-        "unit": "kg"
-      },
-      {
-        "name": "Primal S.V. (VH)",
-        "amount_kg": 0.013,
-        "unit": "kg"
-      },
-      {
-        "name": "Primal Protec (VH)",
-        "amount_kg": 0.013,
-        "unit": "kg"
-      },
-      {
-        "name": "Avogel",
-        "amount_kg": 0.075,
-        "unit": "kg"
-      }
-    ],
-    "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 20)"
+    "instructions": "1. S.-Leber und Kutterbauch auf 3mm wolfen. 2. Gewürzmischung (pro kg Charge berechnet) gleichmäßig unterarbeiten. 3. Zu Knödeln formen und garen.",
+    "quality_info": "Datum: 11.03.2023 | Zuständig: Herr Rieth"
   },
   {
     "id": "rec_038",
@@ -2843,7 +2766,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 21)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_039",
@@ -2921,7 +2844,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 22)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_040",
@@ -2996,7 +2919,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 23)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_041",
@@ -3093,7 +3016,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 2receot.pdf (Seite 24)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_042",
@@ -3185,7 +3108,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 1)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_043",
@@ -3283,7 +3206,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 2)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_044",
@@ -3385,7 +3308,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 3)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_045",
@@ -3404,7 +3327,7 @@
     ],
     "spices_additives": [],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 4)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_046",
@@ -3496,7 +3419,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 5)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_047",
@@ -3517,7 +3440,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 6)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_048",
@@ -3606,7 +3529,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 7)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_049",
@@ -3656,7 +3579,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 8)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_050",
@@ -3748,7 +3671,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 9)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_051",
@@ -3849,7 +3772,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 10)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_052",
@@ -3899,7 +3822,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 11)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_053",
@@ -3948,7 +3871,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 12)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_054",
@@ -4025,7 +3948,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 13)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_055",
@@ -4064,7 +3987,7 @@
     ],
     "spices_additives": [],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 14)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_056",
@@ -4152,7 +4075,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 15)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_057",
@@ -4268,7 +4191,7 @@
       }
     ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 16)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_058",
@@ -4295,7 +4218,7 @@
     ],
     "spices_additives": [],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 17)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_059",
@@ -4362,44 +4285,218 @@
     ],
     "spices_additives": [],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 18)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
   },
   {
     "id": "rec_060",
-    "title": "elw.p1oh",
+    "title": "Asia-Wurst (Kräuter)",
     "category": "Brühwurst",
-    "base_batch_kg": 4.0,
+    "base_batch_kg": 17.5,
     "meat_ingredients": [
       {
-        "name": "S1",
-        "amount_kg": 1.0
+        "name": "Gelb-Brät",
+        "amount_kg": 5.0
       },
       {
-        "name": "mm",
-        "amount_kg": 3.0
+        "name": "S II",
+        "amount_kg": 5.0
+      },
+      {
+        "name": "VA Bauch",
+        "amount_kg": 5.0
+      },
+      {
+        "name": "Süß-Sauer",
+        "amount_kg": 2.5
       }
     ],
-    "spices_additives": [],
+    "spices_additives": [
+      {
+        "name": "Kochsalz",
+        "amount_kg": 0.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Koriander",
+        "amount_kg": 0.08,
+        "unit": "kg"
+      },
+      {
+        "name": "Chillies",
+        "amount_kg": 0.02,
+        "unit": "kg"
+      },
+      {
+        "name": "Currypulver",
+        "amount_kg": 0.01,
+        "unit": "kg"
+      }
+    ],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 19)"
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Asia-Wurst.pdf"
   },
   {
     "id": "rec_061",
-    "title": "\"Diphosphat\"",
-    "category": "Brühwurst",
-    "base_batch_kg": 120.0,
+    "title": "Cevapcici (Rindfleisch)",
+    "category": "Hackfleisch",
+    "base_batch_kg": 1.0,
     "meat_ingredients": [
       {
-        "name": "KG",
-        "amount_kg": 15.000105
-      },
-      {
-        "name": "KG",
-        "amount_kg": 105.0
+        "name": "Rindfleisch",
+        "amount_kg": 1.0
       }
     ],
-    "spices_additives": [],
-    "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
-    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Gescanntes Dokument 3.pdf (Seite 20)"
+    "spices_additives": [
+      {
+        "name": "Salz",
+        "amount_kg": 0.02,
+        "unit": "kg"
+      },
+      {
+        "name": "Pfeffer",
+        "amount_kg": 0.003,
+        "unit": "kg"
+      },
+      {
+        "name": "Knoblauchpulver",
+        "amount_kg": 0.004,
+        "unit": "kg"
+      },
+      {
+        "name": "Zwiebelpulver",
+        "amount_kg": 0.004,
+        "unit": "kg"
+      },
+      {
+        "name": "Paprika Edelsüß",
+        "amount_kg": 0.002,
+        "unit": "kg"
+      },
+      {
+        "name": "Oregano",
+        "amount_kg": 0.002,
+        "unit": "kg"
+      },
+      {
+        "name": "getrocknete Tomaten",
+        "amount_kg": 0.002,
+        "unit": "kg"
+      }
+    ],
+    "instructions": "Pro 1 kg Fleisch verarbeiten.",
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Cevapcici.pdf"
+  },
+  {
+    "id": "rec_062",
+    "title": "Merguez",
+    "category": "Rohwurst",
+    "base_batch_kg": 15.0,
+    "meat_ingredients": [
+      {
+        "name": "Brät",
+        "amount_kg": 15.0
+      }
+    ],
+    "spices_additives": [
+      {
+        "name": "Kochsalz",
+        "amount_kg": 0.27,
+        "unit": "kg"
+      },
+      {
+        "name": "Pfeffer schwarz",
+        "amount_kg": 0.03,
+        "unit": "kg"
+      },
+      {
+        "name": "Paprika",
+        "amount_kg": 0.06,
+        "unit": "kg"
+      },
+      {
+        "name": "Knoblauch",
+        "amount_kg": 0.11,
+        "unit": "kg"
+      },
+      {
+        "name": "Kreuzkümmel",
+        "amount_kg": 0.01,
+        "unit": "kg"
+      },
+      {
+        "name": "Piment",
+        "amount_kg": 0.01,
+        "unit": "kg"
+      },
+      {
+        "name": "Chilli",
+        "amount_kg": 0.03,
+        "unit": "kg"
+      },
+      {
+        "name": "Paprex",
+        "amount_kg": 0.15,
+        "unit": "kg"
+      }
+    ],
+    "instructions": "Verarbeitung: 3 mm Wolfen",
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Merguez.pdf"
+  },
+  {
+    "id": "rec_063",
+    "title": "Vespermett (Gek. Mettwurst)",
+    "category": "Kochwurst",
+    "base_batch_kg": 94.0,
+    "meat_ingredients": [
+      {
+        "name": "Schulter I",
+        "amount_kg": 20.0
+      },
+      {
+        "name": "S II",
+        "amount_kg": 20.0
+      },
+      {
+        "name": "Eisbeinfleisch",
+        "amount_kg": 8.0
+      },
+      {
+        "name": "Kutterbauch I o. Wamme",
+        "amount_kg": 20.0
+      },
+      {
+        "name": "Eiswasser",
+        "amount_kg": 26.0
+      }
+    ],
+    "spices_additives": [
+      {
+        "name": "NPS",
+        "amount_kg": 1.4,
+        "unit": "kg"
+      },
+      {
+        "name": "Gekochte Mettwurst- Gewürz (HS)",
+        "amount_kg": 6.0,
+        "unit": "kg"
+      },
+      {
+        "name": "Pökulus",
+        "amount_kg": 0.1,
+        "unit": "kg"
+      },
+      {
+        "name": "Dextrose",
+        "amount_kg": 0.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Rapsrot (Ra)",
+        "amount_kg": 0.15,
+        "unit": "kg"
+      }
+    ],
+    "instructions": "Zuständig: Herr Rieth | Datum: 28.07.2026",
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: IMG_4842.jpg"
   }
 ]

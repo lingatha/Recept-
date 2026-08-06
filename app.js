@@ -2392,7 +2392,7 @@ const AUTHENTIC_RECIPES = [
         "unit": "kg"
       }
     ],
-    "instructions": "Rezepturvarianten:\n- Bratwurst Greewe: Analog Bratwurst mittelgrob, jedoch ohne Majoran.\n- Delikatessrostbratwurst: Analog Bratwurst mittelgrob, jedoch 1,800 kg Kochsalz, 0,220 kg Majoran.\n- Lumenbratwurst: Analog Bratwurst mittelgrob, jedoch 0,300 kg Majoran.",
+    "instructions": "Rezepturvarianten: - Bratwurst Greewe: Analog Bratwurst mittelgrob, jedoch ohne Majoran. - Delikatessrostbratwurst: Analog Bratwurst mittelgrob, jedoch 1,800 kg Kochsalz, 0,220 kg Majoran. - Lumenbratwurst: Analog Bratwurst mittelgrob, jedoch 0,300 kg Majoran.",
     "quality_info": "Datum: 21.08.2022 | Zuständig: Herr Rieth"
   },
   {
@@ -2727,7 +2727,7 @@ const AUTHENTIC_RECIPES = [
         "unit": "kg"
       }
     ],
-    "instructions": "1. S.-Leber und Kutterbauch auf 3mm wolfen.\n2. Gewürzmischung (pro kg Charge berechnet) gleichmäßig unterarbeiten.\n3. Zu Knödeln formen und garen.",
+    "instructions": "1. S.-Leber und Kutterbauch auf 3mm wolfen. 2. Gewürzmischung (pro kg Charge berechnet) gleichmäßig unterarbeiten. 3. Zu Knödeln formen und garen.",
     "quality_info": "Datum: 11.03.2023 | Zuständig: Herr Rieth"
   },
   {
@@ -4224,7 +4224,7 @@ const AUTHENTIC_RECIPES = [
   },
   {
     "id": "rec_059",
-    "title": "Mergenuz",
+    "title": "Merseuz",
     "category": "Brühwurst",
     "base_batch_kg": 23192.0,
     "meat_ingredients": [
@@ -4288,9 +4288,221 @@ const AUTHENTIC_RECIPES = [
     "spices_additives": [],
     "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
     "quality_info": "Quelle: Rembser GmbH Wurstproduktion"
+  },
+  {
+    "id": "rec_060",
+    "title": "Asia-Wurst (Kräuter)",
+    "category": "Brühwurst",
+    "base_batch_kg": 17.5,
+    "meat_ingredients": [
+      {
+        "name": "Gelb-Brät",
+        "amount_kg": 5.0
+      },
+      {
+        "name": "S II",
+        "amount_kg": 5.0
+      },
+      {
+        "name": "VA Bauch",
+        "amount_kg": 5.0
+      },
+      {
+        "name": "Süß-Sauer",
+        "amount_kg": 2.5
+      }
+    ],
+    "spices_additives": [
+      {
+        "name": "Kochsalz",
+        "amount_kg": 0.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Koriander",
+        "amount_kg": 0.08,
+        "unit": "kg"
+      },
+      {
+        "name": "Chillies",
+        "amount_kg": 0.02,
+        "unit": "kg"
+      },
+      {
+        "name": "Currypulver",
+        "amount_kg": 0.01,
+        "unit": "kg"
+      }
+    ],
+    "instructions": "Herstellung gemäß Rembser GmbH Wurstproduktion Qualitätsmanagement-Vorgaben.",
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Asia-Wurst.pdf"
+  },
+  {
+    "id": "rec_061",
+    "title": "Cevapcici (Rindfleisch)",
+    "category": "Hackfleisch",
+    "base_batch_kg": 1.0,
+    "meat_ingredients": [
+      {
+        "name": "Rindfleisch",
+        "amount_kg": 1.0
+      }
+    ],
+    "spices_additives": [
+      {
+        "name": "Salz",
+        "amount_kg": 0.02,
+        "unit": "kg"
+      },
+      {
+        "name": "Pfeffer",
+        "amount_kg": 0.003,
+        "unit": "kg"
+      },
+      {
+        "name": "Knoblauchpulver",
+        "amount_kg": 0.004,
+        "unit": "kg"
+      },
+      {
+        "name": "Zwiebelpulver",
+        "amount_kg": 0.004,
+        "unit": "kg"
+      },
+      {
+        "name": "Paprika Edelsüß",
+        "amount_kg": 0.002,
+        "unit": "kg"
+      },
+      {
+        "name": "Oregano",
+        "amount_kg": 0.002,
+        "unit": "kg"
+      },
+      {
+        "name": "getrocknete Tomaten",
+        "amount_kg": 0.002,
+        "unit": "kg"
+      }
+    ],
+    "instructions": "Pro 1 kg Fleisch verarbeiten.",
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Cevapcici.pdf"
+  },
+  {
+    "id": "rec_062",
+    "title": "Merguez",
+    "category": "Rohwurst",
+    "base_batch_kg": 15.0,
+    "meat_ingredients": [
+      {
+        "name": "Brät",
+        "amount_kg": 15.0
+      }
+    ],
+    "spices_additives": [
+      {
+        "name": "Kochsalz",
+        "amount_kg": 0.27,
+        "unit": "kg"
+      },
+      {
+        "name": "Pfeffer schwarz",
+        "amount_kg": 0.03,
+        "unit": "kg"
+      },
+      {
+        "name": "Paprika",
+        "amount_kg": 0.06,
+        "unit": "kg"
+      },
+      {
+        "name": "Knoblauch",
+        "amount_kg": 0.11,
+        "unit": "kg"
+      },
+      {
+        "name": "Kreuzkümmel",
+        "amount_kg": 0.01,
+        "unit": "kg"
+      },
+      {
+        "name": "Piment",
+        "amount_kg": 0.01,
+        "unit": "kg"
+      },
+      {
+        "name": "Chilli",
+        "amount_kg": 0.03,
+        "unit": "kg"
+      },
+      {
+        "name": "Paprex",
+        "amount_kg": 0.15,
+        "unit": "kg"
+      }
+    ],
+    "instructions": "Verarbeitung: 3 mm Wolfen",
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: Merguez.pdf"
+  },
+  {
+    "id": "rec_063",
+    "title": "Vespermett (Gek. Mettwurst)",
+    "category": "Kochwurst",
+    "base_batch_kg": 94.0,
+    "meat_ingredients": [
+      {
+        "name": "Schulter I",
+        "amount_kg": 20.0
+      },
+      {
+        "name": "S II",
+        "amount_kg": 20.0
+      },
+      {
+        "name": "Eisbeinfleisch",
+        "amount_kg": 8.0
+      },
+      {
+        "name": "Kutterbauch I o. Wamme",
+        "amount_kg": 20.0
+      },
+      {
+        "name": "Eiswasser",
+        "amount_kg": 26.0
+      }
+    ],
+    "spices_additives": [
+      {
+        "name": "NPS",
+        "amount_kg": 1.4,
+        "unit": "kg"
+      },
+      {
+        "name": "Gekochte Mettwurst- Gewürz (HS)",
+        "amount_kg": 6.0,
+        "unit": "kg"
+      },
+      {
+        "name": "Pökulus",
+        "amount_kg": 0.1,
+        "unit": "kg"
+      },
+      {
+        "name": "Dextrose",
+        "amount_kg": 0.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Rapsrot (Ra)",
+        "amount_kg": 0.15,
+        "unit": "kg"
+      }
+    ],
+    "instructions": "Zuständig: Herr Rieth | Datum: 28.07.2026",
+    "quality_info": "Quelle: Rembser GmbH Wurstproduktion | Dokument: IMG_4842.jpg"
   }
 ];
-const DB_VERSION = "v5.3_cleaned";
+const DB_VERSION = "v6.1_fix_syntax";
 
 // Recept Master Pro - 100% Exact Scanned PDF Database
 
